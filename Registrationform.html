@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form>
+            <!--text inputs-->
+            Name: <input type="text" name="name" placeholder="Enter your Full name"><br><br>
+            Email: <input type="email" name="email" placeholder="Enter your Email Address"><br><br>
+            Password: <input type="password" name="password" placeholder="Enter password"><br><br>
+            Mobile: <input type="Number" name="number" placeholder="Mobile Number"><br><br>
+            Current city: 
+            
+            <select name="city" required>
+                <option value=" ">Select City</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Eluru">Eluru</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Vizag">Vizag</option>
+            </select>
+                
+            <br><br>
+            Qualification Details:
+            
+            
+            <select name="Course" required>
+                <option value=" ">Select Qualification</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="Degree">Degree</option>
+                <option value="Diploma">Diploma</option>
+                <option value="Other">Other</option>
+            </select>
+                
+            <br><br>
+
+            <!--radio buttons-->
+           Gender: <input type="radio" name="Gender"> Male 
+             <input type="radio" name="Gender"> Female <br><br>
+
+             <!--checkboxes-->
+             <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">
+             <label for="vehicle1">I have a bike </label><br>
+
+             <input type="checkbox" id="vehicle2" name="vehicle2" value="car">
+             <label for="vehicle2">I have a car </label><br><br>
+
+             Address :
+
+             <textarea name="comments" rows="4" cols="30" placeholder="Enter your Address"></textarea>
+             <br><br>
+
+             <!--buttons-->
+             <input type="submit" value="Submit">
+             <button type="reset">reset</button>
+             <button type="button" onclick="alert('Submitted successfully')">Click me</button>
+             
+
+
+        </form>
+    </body>
+</html>
